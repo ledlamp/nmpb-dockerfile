@@ -1,0 +1,15 @@
+events {}
+http {
+    access_log off;
+    error_log off;
+    server {
+        listen 80;
+        location / {
+            proxy_set_header Upgrade ${DOLLAR}http_upgrade;
+            proxy_set_header Connection "upgrade";
+            proxy_set_header Origin $MPP_ORIGIN;
+            proxy_set_header User-Agent "thing";
+            proxy_pass $MPP_URI;
+        }
+    }
+}

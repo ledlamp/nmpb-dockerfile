@@ -1,0 +1,180 @@
+about
+Hi! I am the Nameless MultiplayerPiano Bot aka NMPB.
+Author: ste-art. Email: steart.ru@gmail.com
+Site: http://nmpb-blog.blogspot.ru/
+Issue tracker: https://bitbucket.org/steart/nmpb/issues
+
+play p load l
+Command: /play - continues playing.
+Command: /play [id] - loads file by id and starts playing.
+Command: /play [string] - loads a random file containing "string" in its name.
+In turns mode works as /auto when it's not your turn.
+Aliases: /play /p /load /l
+
+stop
+Stops playing. /play continues playing from the current position.
+
+restart rr
+Plays track from the beginning.
+Aliases: /restart /rr
+
+set pos
+Command /pos [index] sets track position. Index is value between 0 and 100.
+Command /pos (without arguments) shows current track position.
+Aliases /set /pos
+
+list
+Command /list [index] lists 5 files starting with index.
+
+search find s f
+Usage: /search [name] [page (optional)]
+Searches files by name and lists 5 results per page.
+Aliases: /search /find /s /f
+
+upload u download d
+Usage: /upload [URL] [name (optional)]
+Downloads the file by URL. Only midi files and direct links allowed.
+[name] allows you name the file (only if there is no downloaded copy of it).
+Aliases: /upload /u /download /d
+
+mistakes
+Usage: /mistakes [Period] [Maximum Delay].
+Enables or disables mistakes. Avaliable only when turns are disabled. Arguments are optional.
+Period sets average mistakes period. Default: 20. This means a mistake will occur approximately every 20 notes. Value 0 disables note mistakes.
+Maximum delay adds random delays. Default: 30 (ms). Value 0 disables time delays.
+
+title song name playing
+Shows information about the current playing track.
+Aliases: /title /song /name /playing
+
+random r
+Loads a random track.
+Command /random [string] loads a random file containing "string" in its name. If there is no such file, loads random track.
+Aliases: /random /r
+
+turn t
+Shows whose turn it is.
+Aliases: /turn /t
+
+afk
+Marks you as "away from keyboard". AFK users will automatically skip their turns.
+
+auto a
+Usage /auto [id] or /auto [name]
+Automatically loads the selected track on your turn.
+Command /auto (without arguments) shows last selected track.
+Command /auto -1 deselects track.
+Aliases: /auto /a
+
+voteskip vs
+Available only in turns mode after three minutes of song. Song will be skipped only if more than 2/3 (66%) of the room voted for it.
+Aliases: /voteskip /vs
+
+skipme
+Command /skipme allows you to skip your turns until you type /auto or /skipme again.
+
+color
+Command /color shows your color.
+Command /color [username] shows a user's color.
+Command /color [hexadecimal color (#rrggbb)] shows closest color name. (ex. /color #800080)
+
+sustain
+Toggles auto-sustain mode. When auto-sustain mode is enabled, the bot only starts notes. When it's disabled the bot starts and stops notes.
+
+mysustain mysus
+Toggles personal auto-sustain mode. Personal auto-sustain automatically changes bot's auto-sustain mod on your turn.
+To disable autochange, write /mysustain disable (or /mysus off, or /mysus 0).
+Aliases /musystain /mysus
+
+info
+Shows bot's version, uptime, and turns, sustain and preserveQuota mode states.
+
+queue q
+Shows users in queue.
+Aliases: /queue /q
+
+tempo speed
+Sets current track's tempo. Minimum: 20%, maximum: 500%.
+Aliases: /tempo /speed
+
+help h
+Use /help [command] for command info.
+
+help_text_only
+Text Commands: /help (/h) /list /search (/s) /title /color /info /about
+
+help_upload
+Upload a MIDI: /upload (/u)
+
+help_sequencer
+Sequencer Commands: /auto (/a) /play (/p) /stop /random (/r) /restart (/rr) /set (/pos) /sustain /playnext (/pn) /playprev (/pp)
+
+help_turns
+Turns Commands: /turn (/t) /voteskip (/vs) /afk /skipme /mysustain (/mysus) /queue (/q)
+
+help_noturns
+No Turns Only Commands: /backwards (/b) /mistakes /tempo (/speed) /inverse (/mirror) /octave (/oct) /echo /transpose (/tp)
+
+gsun
+Command /gsun [index] gets shortest unique name for indexed track.
+
+backwards b
+Command /backwards plays backwards current track.
+Command /backwards [index or name] plays backwards selected track.
+Aliases: /backwards /b
+
+inverse mirror
+Toggles inversion.
+Inversion mirrors keyboard from left to right. High notes became low and vice versa.
+Aliases: /inverse /mirror
+
+echo
+Echo mode. An echo will be added to all notes.
+Use /echo to toggle echo mode.
+Use /echonumber (/echon) to set the number of echos.
+Use /echodelay (/echod) to set the echo delay.
+Use /echofade (/echof) to set echo fade effect.
+Use /echoinfo (/echoi) to get echo mode state.
+
+echonumber echon
+Echo mode. The number of echo repeats. The range is 1 to 4.
+Aliases /echonumber /echon
+
+echodelay echod
+Echo mode. Echo delay in milliseconds. The range is 1 to 200.
+Aliases /echodelay /echod
+
+echofade echof
+Echo mode. The fade reduces volume of each next echo. The range is 0% to 20%.
+Aliases /echofade /echof
+
+echoinfo echoi
+Outputs echo mode state.
+Aliases /echoinfo /echoi
+
+octave oct
+Octave mode. This mode adds a note one octave higher or lower. 
+Use /octave (/oct) to toggle octave mode.
+Use /octave (/oct) [number] to set the number of additional octaves.
+Use /octavejump (/octj) to toggle octave interval (1 <=> 2).
+Use /octaveinfo (/octi) to get octave mode state.
+
+octaveinfo octi
+Outputs octave mode state.
+Aliases /octaveinfo /octi
+
+octavejump octj
+Octave mode. Toggles octaves interval between 1 and 2.
+Aliases /octavejump /octj
+
+transpose tp
+Transpose. All the notes will be transposed to the value. The range is -12 to 12.
+Aliases: /transpose /tp
+
+playnext pn
+Play next track (Index + 1).
+Aliases: /playnext /pn
+
+playprev pp
+Play previous track (Index - 1).
+Aliases: /playprev /pp

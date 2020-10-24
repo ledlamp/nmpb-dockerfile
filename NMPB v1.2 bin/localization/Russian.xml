@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpFileName>Help_ru.txt</HelpFileName>
+  <ColorsFileName>Colors_ru.txt</ColorsFileName>
+  <CultureInfoName>ru-RU</CultureInfoName>
+  <ConnectionError>{0} | SYSTEM INFO: Ошибка соединения: {1}</ConnectionError>
+  <Motd>{0} | SYSTEM INFO: Motd: {1}</Motd>
+  <SystemInfoConnected>{0} | SYSTEM INFO: Бот подключён. Версия протокола: {1}.</SystemInfoConnected>
+  <SystemInfoRoom>{0} | SYSTEM INFO: Комната: {1}.</SystemInfoRoom>
+  <UserEntred>{0} | SYSTEM INFO: Пользователь вошёл. Имя: {1}, Цвет: {2}, Auid: {3}.</UserEntred>
+  <UserLeft>{0} | SYSTEM INFO: Пользователь вышел. Имя: {1}, Цвет: {2}, Auid: {3}.</UserLeft>
+  <ConnectionDenied>{0} | SYSTEM INFO: Подключение запрещено другим ботом.</ConnectionDenied>
+  <Disconnected>{0} | SYSTEM INFO: Разединение.</Disconnected>
+  <ReadingFile>Загрузка файла{0}.</ReadingFile>
+  <ReadingFileException>Невозможно разобрать файл. Это точно миди? {0}</ReadingFileException>
+  <ShutDown>Выключение...</ShutDown>
+  <CurrentPosition>Текущая позиция: {0}%.</CurrentPosition>
+  <NoFileLoaded>Файл не загружен. Введите /auto [индекс] чтобы загрузить файл.</NoFileLoaded>
+  <BotIsBusy>Бот занят. Статус: {0}.</BotIsBusy>
+  <ConsoleOnly>Только консоль: {0}</ConsoleOnly>
+  <RoomNameException>Название комнаты должно содержать "{0}"</RoomNameException>
+  <TooMany>Упс, похоже, трек слишком сложный для этого сайта.</TooMany>
+  <GiveMeCrownAndSustain>Чтобы увеличить лимит нот отдайте мне корону, или включите педаль /sustain.</GiveMeCrownAndSustain>
+  <EnableSustain>Чтобы увеличить лимит нот включите педаль /sustain.</EnableSustain>
+  <GiveMeCrown>Чтобы увеличить лимит нот передайте мне корону.</GiveMeCrown>
+  <Console>Консоль: {0}</Console>
+  <NotFound>Не найдено.</NotFound>
+  <NowPlaying>Текущий трек: {0}.</NowPlaying>
+  <ImposterDetected>Обнаружен самозванец. Ты не настоящий {0}.</ImposterDetected>
+  <BannedAnswer>Неа.</BannedAnswer>
+  <TurnsMode>Включён режим очереди.</TurnsMode>
+  <Commands>Команды: </Commands>
+  <Mute>Нажмите на имя пользователя, чтобы заглушить его.</Mute>
+  <TurnInfoNever>Очередь {0} не наступит никогда. Напишите /skipme чтобы вернуться в очередь.</TurnInfoNever>
+  <UserTurnInfo>Очередь {0} начнётся через {1} ходов.</UserTurnInfo>
+  <AFK>{0} помечен как AFK. Отправьте любое сообщение, чтобы вернуться в очередь.</AFK>
+  <NoMoreSkips>{0} Больше не пропускает свою очередь.</NoMoreSkips>
+  <AutoTrackSet>Этот трек будет загружен при наступлении очереди {0}: {1}.</AutoTrackSet>
+  <SelectedTrack>Выбранный трек: {0}.</SelectedTrack>
+  <SkipMe>{0} будет пропускать свою очередь, пока не напишет /auto или /skipme.</SkipMe>
+  <UserColorInfo>Цвет {1}: {0} ({2}).</UserColorInfo>
+  <YourColorInfo>Ваш цвет: {0}.</YourColorInfo>
+  <YouCanOnlyStop>Вы можете только остановить трек (/stop).</YouCanOnlyStop>
+  <MistakesTurns>В режиме очереди ошибки всегда отключены.</MistakesTurns>
+  <MistakesDisabled>Ошибки отключены.</MistakesDisabled>
+  <MistakesEnabled>Ошибки включены. Период: {0}. Максимальная задержка: {1}.</MistakesEnabled>
+  <NoHelpForCommand>Нет информации о команде {0}.</NoHelpForCommand>
+  <SustainEnabled>Педаль включена.</SustainEnabled>
+  <SustainDisabled>Педаль отключена.</SustainDisabled>
+  <PreserveQuotaEnabled>Режим сохранения квоты включён.</PreserveQuotaEnabled>
+  <PreserveQuotaDisabled>Режим сохранения квоты выключен.</PreserveQuotaDisabled>
+  <TrackbarEnabled>Трекбар включён.</TrackbarEnabled>
+  <TrackbarDisabled>Трекбар выключен.</TrackbarDisabled>
+  <DLTooLong>Невозможно скачать. Загрузка занимает слишком много времени.</DLTooLong>
+  <UnableToDownload>Невозможно скачать. {0}</UnableToDownload>
+  <UnableToDownload01>Невозможно скачать. {0} {1}</UnableToDownload01>
+  <Downloading>Скачивание...</Downloading>
+  <IncorrectURL>Неправильный URL.</IncorrectURL>
+  <FileTooBig>Файл слишком большой. Это почти наверняка не миди.</FileTooBig>
+  <UnableToFetfilesize>Невозможно получить размер файла. Ссылка не прямая.</UnableToFetfilesize>
+  <DLNoResponse>Невозможно скачать. Сервер не ответил в течение выделенного времени.</DLNoResponse>
+  <FileSaved>Файл сохранён. Индекс: {0}. Название: {1}.</FileSaved>
+  <FileFound>Файл найден. Индекс: {0}. Название: {1}.</FileFound>
+  <UseAutoToLoad>Напишите /auto {0} чтобы загрузить этот трек.</UseAutoToLoad>
+  <FileRenamed>Файл {0} переименован в: {1}. Старое название: {2}.</FileRenamed>
+  <HashesDoNotMatch>Хеши не совпадают.</HashesDoNotMatch>
+  <FileDeleted>Файл {0} удалён.</FileDeleted>
+  <FileRemoved>Файл {0} убран.</FileRemoved>
+  <FileRestored>Файл {0} восстановлен.</FileRestored>
+  <FileAdded>Файл добавлен: {0}.</FileAdded>
+  <UnableToAddFile>Невозможно добавить файл. Файл уже существует: {0}</UnableToAddFile>
+  <ListInfo>Введите /list [Индекс] чтобы начать с другого индекса. Всего: {0}.</ListInfo>
+  <SearchNext>Осталось {0} результатов. Напишите /{3} {2} или /{3} {1} {2}, чтобы продолжить.</SearchNext>
+  <UnableToLoadDeleted>Невозможно загрузить {0}: {1}. Файл удалён.</UnableToLoadDeleted>
+  <TrackName>Индекс: {0}. Название: {1}</TrackName>
+  <Welcome>Добро пожаловать, {0}. Введите /help для списка команд.</Welcome>
+  <TurnsEnabled>Очередь включена.</TurnsEnabled>
+  <TurnsDisabled>Очередь выключена.</TurnsDisabled>
+  <TurnNow>Сейчас очередь {0}. У вас есть {1} секунд на то, чтобы выбрать трек.</TurnNow>
+  <TimeUp>{1} секунд прошли. Теперь {0} может только остановить (/stop) этот трек. Следующий: {2}.</TimeUp>
+  <LongTrack>Трек выглядит довольно долгим. {0} теперь может взять управление. {1} всё ещё может остановить (/stop) этот трек. Все остальные могут проголосовать за пропуск (/vs).</LongTrack>
+  <SkipTurn> {0} пропустил свой ход и теперь отмечен как AFK.</SkipTurn>
+  <MasterLeaves> {0} вышел.</MasterLeaves>
+  <CanTakeControl> {0} теперь может взять управление.</CanTakeControl>
+  <CurrentTurnInfo>Сейчас очередь {0}. Следующий: {1}.</CurrentTurnInfo>
+  <LongTrackTurnInfo>Сейчас очередь {0}. Но {1} может взять управление, а все остальные могут проголосовать за пропуск (/vs).</LongTrackTurnInfo>
+  <VoteSkipNotAvalible>Голосование доступно только после трёх минут трека.</VoteSkipNotAvalible>
+  <UserWantsSkip> {0} хочет пропустить этот трек.</UserWantsSkip>
+  <UserDoesntWantSkip> {0} не хочет пропускать этот трек.</UserDoesntWantSkip>
+  <Voted>Проголосовало: {0}. Требуется: {1}.</Voted>
+  <WrongColor>Неправильный цвет</WrongColor>
+  <AnyColor>Любой цвет</AnyColor>
+  <OrIfUserBack>. Или {0}, если он вернётся</OrIfUserBack>
+  <PersonalSustainOn>Педаль для {0} будет автоматически включаться.</PersonalSustainOn>
+  <PersonalSustainOff>Педаль для {0} будет автоматически отключаться.</PersonalSustainOff>
+  <PersonalSustainDisabled>Педаль для {0} не будет автоматически изменяться.</PersonalSustainDisabled>
+  <UsersInQueue>Users in queue: {0}.</UsersInQueue>
+</Localization>

@@ -1,0 +1,3 @@
+dropbox.com/ a#default_content_download_button
+hamienet.com/midi div#navbox td:first a:first
+free-midi.org/song div#download a:first

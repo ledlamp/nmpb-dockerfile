@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpFileName>Help.txt</HelpFileName>
+  <ColorsFileName>Colors.txt</ColorsFileName>
+  <CultureInfoName>en-US</CultureInfoName>
+  <ConnectionError>{0} | SYSTEM INFO: Connection error: {1}</ConnectionError>
+  <Motd>{0} | SYSTEM INFO: Motd: {1}</Motd>
+  <SystemInfoConnected>{0} | SYSTEM INFO: Bot connected. Protocol version {1}.</SystemInfoConnected>
+  <SystemInfoRoom>{0} | SYSTEM INFO: Room: {1}.</SystemInfoRoom>
+  <UserEntred>{0} | SYSTEM INFO: User entred. Name: {1}, Color: {2}, Auid: {3}.</UserEntred>
+  <UserLeft>{0} | SYSTEM INFO: User left. Name: {1}, Color: {2}, Auid: {3}.</UserLeft>
+  <ConnectionDenied>{0} | SYSTEM INFO: Connection denied by room owner.</ConnectionDenied>
+  <Disconnected>{0} | SYSTEM INFO: Disconnected.</Disconnected>
+  <ReadingFile>Reading file {0} [{1}].{2}</ReadingFile>
+  <ReadingFileException>Unable parse the file. Is it a midi? {0}</ReadingFileException>
+  <ShutDown>Shutting down...</ShutDown>
+  <CurrentPosition>Current position: {0}% [{1} / {2}].</CurrentPosition>
+  <NoFileLoaded>No file loaded. Use /auto [id] to load file.</NoFileLoaded>
+  <BotIsBusy>Bot is busy. Status: {0}.</BotIsBusy>
+  <ConsoleOnly>Console only: {0}</ConsoleOnly>
+  <RoomNameException>Room name must contain "{0}".</RoomNameException>
+  <TrackTimeTemplate>{0:00}:{1:00}</TrackTimeTemplate>
+  <Backwards> [Backwards]</Backwards>
+  <TooMany>Oops... Looks like this track is too hard for this site. Type /p to continue the song.</TooMany>
+  <GiveMeCrownAndSustain>To increase note quota give me the crown and enable /sustain.</GiveMeCrownAndSustain>
+  <EnableSustain>To increase note quota enable /sustain.</EnableSustain>
+  <GiveMeCrown>To increase note quota give me the crown.</GiveMeCrown>
+  <LBSFS>Do you mean "Last Brutal Sister Flandre Scarlet"?</LBSFS>
+  <Console>Console: {0}</Console>
+  <NotFound>Not found.</NotFound>
+  <NowPlaying>Now playing: {0}.</NowPlaying>
+  <ImposterDetected>Imposter Detected. You are a fake {0}.</ImposterDetected>
+  <BannedAnswer>Nope.</BannedAnswer>
+  <TurnsMode>It's turns mode.</TurnsMode>
+  <Commands>Commands: </Commands>
+  <Mute>Click on the spammer's name to mute him.</Mute>
+  <TurnInfoNever>{0}'s turn never happens. Write /skipme to get back into turns.</TurnInfoNever>
+  <UserTurnInfo>{0}'s turn is after {1} turn(s).</UserTurnInfo>
+  <AFK>{0} was marked as AFK. Send any message to be unmarked.</AFK>
+  <NoMoreSkips>{0} will no longer be skipped.</NoMoreSkips>
+  <AutoTrackSet>This track will be played on {0}'s turn: {1}.</AutoTrackSet>
+  <SelectedTrack>Selected track: {0}.</SelectedTrack>
+  <NoTrackSelected>No track selected.</NoTrackSelected>
+  <SkipMe>{0} will be skipped until typing /auto or /skipme again.</SkipMe>
+  <UserColorInfo>{1}'s color: {0} ({2}).</UserColorInfo>
+  <YourColorInfo>Your color: {0}.</YourColorInfo>
+  <YouCanOnlyStop>You can only /stop the track.</YouCanOnlyStop>
+  <MistakesDisabled>Mistakes disabled.</MistakesDisabled>
+  <MistakesEnabled>Mistakes enabled. Period: {0}. Maximum Delay: {1}.</MistakesEnabled>
+  <NoHelpForCommand>There is no help for the command: {0}.</NoHelpForCommand>
+  <SustainEnabled>Auto-sustain is enabled.</SustainEnabled>
+  <SustainDisabled>Auto-sustain is disabled.</SustainDisabled>
+  <InversionEnabled>Inversion is enabled.</InversionEnabled>
+  <InversionDisabled>Inversion is disabled.</InversionDisabled>
+  <Tempo>Tempo: {0}% [{1}]</Tempo>
+  <PreserveQuotaEnabled>PreserveQuota mode is enabled.</PreserveQuotaEnabled>
+  <PreserveQuotaDisabled>PreserveQuota mode is disabled.</PreserveQuotaDisabled>
+  <TrackbarEnabled>Trackbar is enabled.</TrackbarEnabled>
+  <TrackbarDisabled>Trackbar is disabled.</TrackbarDisabled>
+  <UniqueNameFound>Found shortest unique name{1}: {0}</UniqueNameFound>
+  <UniqueNameNotFound>No unique name exist.</UniqueNameNotFound>
+  <DLTooLong>Unable to download. It takes too long to download this file.</DLTooLong>
+  <UnableToDownload>Unable to download. {0}</UnableToDownload>
+  <UnableToDownload01>Unable to download. {0} {1}</UnableToDownload01>
+  <Downloading>Downloading...</Downloading>
+  <IncorrectURL>Incorrect URL.</IncorrectURL>
+  <FileTooBig>File is too big. It's almost certainly not a midi file.</FileTooBig>
+  <UnableToFetfilesize>Unable to get filesize. It's not a direct link.</UnableToFetfilesize>
+  <DLNoResponse>Unable to download. No response was received during the time-out period for a request.</DLNoResponse>
+  <FileSaved>File saved. ID: {0}. Name: {1}.</FileSaved>
+  <FileFound>File found. ID: {0}. Name: {1}.</FileFound>
+  <UseAutoToLoad>Use /auto {0} to load this track.</UseAutoToLoad>
+  <FileRenamed>File {0} renamed to: {1}. Old name: {2}.</FileRenamed>
+  <HashesDoNotMatch>Hashes do not match.</HashesDoNotMatch>
+  <FileDeleted>File {0} deleted.</FileDeleted>
+  <FileRemoved>File {0} removed.</FileRemoved>
+  <FileRestored>File {0} restored.</FileRestored>
+  <FileAdded>File added: {0}.</FileAdded>
+  <UnableToAddFile>Unable to add file. File is already exists: {0}</UnableToAddFile>
+  <ListInfo>Use /list [id] to start from another id. Total: {0}.</ListInfo>
+  <SearchNext>There are {0} more results. Type /{3} {2} or /{3} {1} {2} to continue.</SearchNext>
+  <UnableToLoadDeleted>Unable to load {0}: {1}. File is deleted.</UnableToLoadDeleted>
+  <TrackName>Id: {0}. Name: {1}</TrackName>
+  <WorkingDirectory>Working directory: {0}</WorkingDirectory>
+  <Welcome>Welcome, {0}. Use /help for the command list.</Welcome>
+  <TurnsEnabled>Turns are enabled.</TurnsEnabled>
+  <TurnsDisabled>Turns are disabled.</TurnsDisabled>
+  <TurnNow>It is now {0}'s turn. You have {1} seconds to pick a track.</TurnNow>
+  <TimeUp>{1} seconds is up. Now, {0} can only /stop the track. Next: {2}.</TimeUp>
+  <LongTrack>Track looks pretty long. {0} can take the controls now. {1} can still /stop this track. Everyone else can /voteskip it.</LongTrack>
+  <SkipTurn>{0}'s turn was skipped and he is now marked as AFK.</SkipTurn>
+  <MasterLeaves>{0} leaves.</MasterLeaves>
+  <CanTakeControl>{0} can take control now.</CanTakeControl>
+  <CurrentTurnInfo>It's {0}'s turn. Next: {1}.</CurrentTurnInfo>
+  <LongTrackTurnInfo>It's {0}'s turn. But {1} can take control and everyone else can /voteskip it.</LongTrackTurnInfo>
+  <VoteSkipNotAvalible>Voteskip is only available after three minutes of playing the current track.</VoteSkipNotAvalible>
+  <UserWantsSkip>{0} wants to skip this track.</UserWantsSkip>
+  <UserDoesntWantSkip>{0} doesn't want to skip this track.</UserDoesntWantSkip>
+  <Voted>Voted: {0}. Required: {1}.</Voted>
+  <WrongColor>Wrong color</WrongColor>
+  <AnyColor>Any color</AnyColor>
+  <OrIfUserBack>. Or {0}, if he comes back</OrIfUserBack>
+  <PersonalSustainOn>{0}'s auto-sustain is turned on.</PersonalSustainOn>
+  <PersonalSustainOff>{0}'s auto-sustain is turned off.</PersonalSustainOff>
+  <PersonalSustainDisabled>{0}'s auto-sustain is disabled.</PersonalSustainDisabled>
+  <UsersInQueue>Users in queue: {0}.</UsersInQueue>
+</Localization>
